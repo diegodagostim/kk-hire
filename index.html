@@ -16,6 +16,15 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <script>
+      function abrir(URL) {
+        window.open(
+          URL,
+          "popup",
+          "width=950, height=180, top=100, left=200, scrollbars=no, status=no, toolbar=no, location=no, menubar=no, resizable=no, fullscreen=no"
+        );
+      }
+    </script>
   </head>
   <body>
     <!-- // Navbar //-->
@@ -55,7 +64,12 @@
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Book a Vehicle</a>
+              <a
+                class="nav-link"
+                href="#"
+                onclick="abrir('bookingRequest.html')"
+                >Booking Request</a
+              >
             </li>
           </ul>
           <button type="button" class="rounded-pill btn-rounded">
@@ -76,7 +90,7 @@
           <!-- START THE CONTENT FOR THE INTRO  -->
           <div class="col-md-6 intros text-start">
             <h1 class="display-2">
-              <span class="display-2--intro">Hey!, I'm K&K</span>
+              <span class="display-2--intro">Hey!, I'm K&K Vehicle Hire</span>
               <span class="display-2--description lh-base">
                 Welcome to our rental car company! We offer a wide range of
                 vehicles to meet your delivery needs.
@@ -448,21 +462,19 @@
             <div class="cta-info w-100">
               <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
               <p class="lh-lg">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-                alias optio minima, tempore architecto sint ipsam dolore tempora
-                facere laboriosam corrupti!
+                We have a high level of customer satisfaction. Drive with us!
               </p>
               <h3 class="display-3--brief">What will be the next step?</h3>
               <ul class="cta-info__list">
                 <li>We'll prepare the proposal.</li>
-                <li>we'll discuss it together.</li>
-                <li>you're ready to go!</li>
+                <li>We'll discuss it together.</li>
+                <li>You're ready to go!</li>
               </ul>
             </div>
           </div>
           <div class="col-12 col-lg-6 bg-white shadow p-3">
             <div class="form w-100 pb-2">
-              <h4 class="display-3--title mb-5">start your project</h4>
+              <h4 class="display-3--title mb-5">Get in Touch!</h4>
               <form action="#" class="row">
                 <div class="col-lg-6 col-md mb-3">
                   <input
@@ -540,8 +552,8 @@
               </svg>
             </div>
             <div class="contact-box__info">
-              <a href="#" class="contact-box__info--title">+1 728365413</a>
-              <p class="contact-box__info--subtitle">Mon-Fri 9am-6pm</p>
+              <a href="#" class="contact-box__info--title">+44 01268 219694</a>
+              <p class="contact-box__info--subtitle">Mon-Fri | 8am-6pm</p>
             </div>
           </div>
           <!-- CONTENT FOR EMAIL  -->
@@ -566,8 +578,10 @@
               </svg>
             </div>
             <div class="contact-box__info">
-              <a href="#" class="contact-box__info--title">info@company.com</a>
-              <p class="contact-box__info--subtitle">Online support</p>
+              <a href="#" class="contact-box__info--title"
+                >info@kkvehiclehire.com</a
+              >
+              <p class="contact-box__info--subtitle">Email Us</p>
             </div>
           </div>
           <!-- CONTENT FOR LOCATION  -->
@@ -595,8 +609,8 @@
               </svg>
             </div>
             <div class="contact-box__info">
-              <a href="#" class="contact-box__info--title">New York, USA</a>
-              <p class="contact-box__info--subtitle">NY 10012, US</p>
+              <a href="#" class="contact-box__info--title">Grays, UK</a>
+              <p class="contact-box__info--subtitle">RM175XR</p>
             </div>
           </div>
         </div>
@@ -607,13 +621,10 @@
         <div class="container">
           <div class="row py-4 text-center text-white">
             <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
-              connect with us on social media
+              Connect with us on social media
             </div>
             <div class="col-lg-7 col-md-6">
               <a href="#"><i class="fab fa-facebook"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-github"></i></a>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
               <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
@@ -624,7 +635,7 @@
       <div class="container mt-5">
         <div class="row text-white justify-content-center mt-3 pb-3">
           <div class="col-12 col-sm-6 col-lg-6 mx-auto">
-            <h5 class="text-capitalize fw-bold">Campany name</h5>
+            <h5 class="text-capitalize fw-bold">K&K Vehicle Hire</h5>
             <hr
               class="bg-white d-inline-block mb-4"
               style="width: 60px; height: 2px"
@@ -683,12 +694,11 @@
           <div class="row text-center text-white">
             <div class="col-12">
               <div class="footer-bottom__copyright">
-                &COPY; Copyright 2021 <a href="#">Company</a> | Created by
-                <a href="http://codewithpatrick.com" target="_blank">Muriungi</a
-                ><br /><br />
-
-                Distributed by
-                <a href="http://themewagon.com" target="_blank">ThemeWagon</a>
+                &COPY; Copyright 2021 <a href="#">K&K Vehicle Hire Ltd</a> |
+                Created by
+                <a href="http://diegodagostim.com" target="_blank"
+                  >Diego Dagostim</a
+                ><br />
               </div>
             </div>
           </div>
